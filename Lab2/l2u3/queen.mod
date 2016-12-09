@@ -22,8 +22,8 @@ subject to const6{i in 1..8}:
 
 solve;
 
-printf "Number of queens: %d\n", queens;
-printf {i in 1..8, j in 1..8: board[i, j] > 0} "Queen at: %d:%d\n", i, j;
+printf "Numb. of queens: %d\n", queens;
+printf {i in 1..8, j in 1..8: board[i, j] > 0} "Queen at position: %d:%d\n", i, j;
 
 end;
 

@@ -10,7 +10,7 @@ subject to const2{i in 1..8}:
 
 solve;
 
-printf "Number of rooks: %d\n", rooks;
-printf{i in 1..8, j in 1..8: board[i, j] > 0} "Rook at: %d:%d\n", i, j;
+printf "Numb. of rooks: %d\n", rooks;
+printf{i in 1..8, j in 1..8: board[i, j] > 0} "Rook at position: %d:%d\n", i, j;
 
 end;
