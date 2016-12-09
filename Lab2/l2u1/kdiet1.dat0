@@ -1,0 +1,20 @@
+
+param: MAT:  pris   maxport :=
+ havregryn   3	    4 
+ kyckling    24     3
+ agg 	     13     2
+ mjolk 	     9	    8
+ paj  	     20	    2
+ bonor 	     19	    2;	
+
+param: BEHOV:  minkrav maxkrav := 
+ energi        2000    99999
+ protein       55      99999
+ kalcium       800     99999;
+
+param inneh: havregryn kyckling agg  mjolk paj  bonor :=
+ energi	      110      205 	160  160   420 	260
+ protein      4        32 	13   8 	   4 	14
+ kalcium      2        12 	54 285 	   22 	80 ;
+
+end;

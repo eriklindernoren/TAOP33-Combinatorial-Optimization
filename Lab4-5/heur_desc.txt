@@ -1,0 +1,5 @@
+Min heuristik v√ljer att skicka d√r kostnaden f√r att bygga en fabrik och kostanderna f√r
+den fabrikens v√gar √r som l√gst. Detta g√r att algoritmen l√gger relativt stor vikt vid priset
+f√r att bygga nya fabriker. Dvs den kostanden kommer att spela en v√ldigt stor roll i valet. 
+Algoritmen ger d√rmed bra resultat (ofta optimal) d√ kostanden f√r att bygga nya fabriker √r h√ga
+relativt till transportkostnaden fr√n fabrikerna.

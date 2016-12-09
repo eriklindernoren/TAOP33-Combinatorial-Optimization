@@ -1,0 +1,34 @@
+
+param:  MAT:                     pris  maxport :=
+  "Quarter Pounder w/ Cheese"    1.84   100
+  "McLean Deluxe w/ Cheese"      2.19   100
+  "Big Mac"                      1.84   100
+  "Filet-O-Fish"                 1.44   100
+  "McGrilled Chicken"            2.29   100
+  "Fries, small"                  .77   100
+  "Sausage McMuffin"             1.29   100
+  "1% Lowfat Milk"                .60   100
+  "Orange Juice"                  .72   100;
+
+param:  BEHOV:   minkrav maxkrav :=
+        Cal      2000	 99999
+        Carbo     350	 375
+        Protein    55	 99999
+        VitA      100	 99999
+        VitC      100	 99999
+        Calc      100	 99999
+        Iron      100	 99999;
+     
+param inneh (tr):
+                               Cal  Carbo Protein   VitA   VitC  Calc  Iron :=
+  "Quarter Pounder w/ Cheese"  510     34     28     15      6    30    20 
+  "McLean Deluxe w/ Cheese"    370     35     24     15     10    20    20 
+  "Big Mac"                    500     42     25      6      2    25    20 
+  "Filet-O-Fish"               370     38     14      2      0    15    10 
+  "McGrilled Chicken"          400     42     31      8     15    15     8 
+  "Fries, small"               220     26      3      0     15     0     2 
+  "Sausage McMuffin"           345     27     15      4      0    20    15 
+  "1% Lowfat Milk"             110     12      9     10      4    30     0 
+  "Orange Juice"                80     20      1      2    120     2     2 ;
+
+end;
